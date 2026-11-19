@@ -1,4 +1,4 @@
-# nanocart-io
+# NanoCart
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,114 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-nanocart-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://nanocart.io/
+NanoCart provides a platform that turns any website, product page, link-in-bio, or hosted storefront into a real selling machine. It supports one-time and monthly donations, integrates Stripe and PayPal, offers zero transaction fees, and includes AI Studio to build storefronts from descriptions. The official NanoCart MCP server enables AI agents to run stores, handling orders, inventory, analytics, and webhooks without platform bloat.
+
+**Areas:** E-commerce · Checkout · AI · Donations · Storefront
+
+## NanoCart on APIs.io
+
+Everything profiled for NanoCart is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nanocart-io/](https://apis.io/providers/nanocart-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [NanoCart API](https://apis.io/apis/nanocart-io/nanocart-api/) — API for NanoCart e-commerce platform
+- [NanoCart API](https://apis.io/apis/nanocart-io/nanocart-io-api/) — NanoCart API as documented publicly: 70 operations. Contract generated from the documentation by API Evangelist (2026-11-19); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetShopMyStoreAdminProductsResponse](https://apis.io/schemas/nanocart-io/nanocart-io-get-shop-my-store-admin-products-response/)
+- [GetShopStoreidStorefrontConfigResponse](https://apis.io/schemas/nanocart-io/nanocart-io-get-shop-storeid-storefront-config-response/)
+- [PostShopStoreidAdminCouponsRequest](https://apis.io/schemas/nanocart-io/nanocart-io-post-shop-storeid-admin-coupons-request/)
+- [PostShopStoreidAdminDonationsCampaignsRequest](https://apis.io/schemas/nanocart-io/nanocart-io-post-shop-storeid-admin-donations-campaigns-request/)
+- [PutShopStoreidAdminDonationsCampaignsCampaignidRequest](https://apis.io/schemas/nanocart-io/nanocart-io-put-shop-storeid-admin-donations-campaigns-campaignid-request/)
+- [PutShopStoreidAdminStorefrontRequest](https://apis.io/schemas/nanocart-io/nanocart-io-put-shop-storeid-admin-storefront-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Nanocart Io Context](https://apis.io/jsonld/nanocart-io/nanocart-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [NanoCart API Rules](https://apis.io/rules/nanocart-io/nanocart-io-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [NanoCart Domain Security](https://apis.io/security/nanocart-io/nanocart-io-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://nanocart.io/)
+- [Documentation](https://docs.nanocart.io/)
+- [Getting started](https://docs.nanocart.io/#payments-stripe)
+- [Terms of service](https://nanocart.io/legal/terms.html)
+- [Privacy policy](https://nanocart.io/legal/privacy.html)
+
+## API Evangelist rating
+
+**Kin Score 36.4** — thin · rubric 0.27.0 · scored 2026-11-19
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 18.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 15.8** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/nanocart-io/](https://apis.io/providers/nanocart-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for NanoCart: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/nanocart-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
